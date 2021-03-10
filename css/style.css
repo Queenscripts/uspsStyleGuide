@@ -1,0 +1,46 @@
+:root{
+    --primary: #333366;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 10px;
+}
+div{
+    height: 50px;
+    width: 50px;
+}
+
+section{
+    background-color: rgba(200, 200, 200, .5);
+    padding: 20px;
+    margin: 2% 0;
+}
+
+p{
+    font-style: italic;
+    /* font-weight: 100; */
+}
+
+h2{
+    color: var(--primary);
+}
+
+.primaryColor{
+    color: var(--primary);
+    background-color: var(--primary);
+}
+
+.secondaryColor{
+    background-color: #337ab7;
+}
+
+
+.stacked{
+    display: flex;
+}
